@@ -30,6 +30,3 @@ const styles = {
 };
 
 export default Header;
-
-// alignItems
-// justifyContent
