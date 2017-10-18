@@ -3,7 +3,7 @@ import { Text } from 'react-native';
 import Header from './src/containers/header';
 
 const App = () => (
-  <Header />
+  <Header headerText={'Albums'} />
 );
 
 export default App;
