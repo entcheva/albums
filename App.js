@@ -1,7 +1,7 @@
 import React from 'react';
 import { View } from 'react-native';
-import Header from './src/components/Header';
-import AlbumList from './src/components/AlbumList';
+import Header from './src/containers/Header';
+import AlbumList from './src/containers/AlbumList';
 
 const App = () => (
   <View>
