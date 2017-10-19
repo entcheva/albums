@@ -12,12 +12,16 @@ class AlbumList extends Component {
     })
   }
 
+  renderAlbums() {
+    return this.state.albums.map(album => <Text>{album.title}</Text>);
+  }
+
   render() {
     console.log(this.state);
 
     return (
       <View>
-        <Text>hi</Text>
+        {this.renderAlbums()}
       </View>
     );
   }
